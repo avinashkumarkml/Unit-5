@@ -8,11 +8,11 @@ export function Inventry(){
     };
 
     return(
-        <><div className="items"></div>
+        <><div className="items">
         <span>Books:{counter}</span>
         <button className="addBook" onclick={()=>changeCount(1)}>+</button>
         <button className="remBook" onclick={()=>changeCount(-1)}>-</button>
-        
+        </div>
         </>
     )
 }
