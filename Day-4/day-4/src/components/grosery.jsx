@@ -9,7 +9,7 @@ const Grosery =(prop) =>{
         <button onClick={()=>{
             prop.onSelect(prop.id)
         }}>Delete</button>
-
+        
 
 
         </div>
