@@ -1,17 +1,12 @@
-
+import logo from './logo.svg';
 import './App.css';
-import {useState} from "react"
-import { Grocery } from './components/grosery'
-
-
+import {Forms} from './components/Form'
 
 function App() {
-
   return (
     <div className="App">
-        <Grocery/>
+      <Forms/>
     </div>
-
   );
 }
 
